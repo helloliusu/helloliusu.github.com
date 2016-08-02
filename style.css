@@ -1,0 +1,228 @@
+html {
+    height: 100%;
+}
+body {
+    height: calc(100% - 16px);
+    margin: 8px;
+    font-family: "Microsoft Yahei", "\5FAE\8F6F\96C5\9ED1", tahoma, arial, verdana, sans-serif;
+}
+#wraper {
+    width: 80%;
+    margin: 0 auto;
+    z-index: 0;
+}
+header {
+    height: 250px;
+    background: #009688;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    padding: 1px;
+}
+header> img {
+    float: left;
+}
+header> h1 {
+    color: white;
+    text-shadow: 4px 4px 5px #777;
+    padding-top: 90px;
+    margin-top: 0;
+    padding-left: 260px;
+}
+header> h3 {
+    color: rgba(255, 255, 255, 0.57);
+    padding-top: 20px;
+    padding-left: 260px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px 0 0;
+    padding: 0 0 10px;
+}
+.date-select, .report {
+    flex: 1;
+    min-width: 500px;
+    color: rgba(0, 0, 0, .87);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 8px;
+    padding: 0 4px;
+}
+.month-chooser {
+    border-bottom: 1px solid rgba(0, 0, 0, .27);
+}
+.month-label {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+.month-chooser> img {
+    margin-top: 4px;
+    cursor: pointer;
+}
+.month-chooser> img:first-child {
+    float: left;
+}
+.month-chooser> img:nth-child(2) {
+    float: right;
+}
+.month-chooser img.month-disabled {
+    opacity: 0.2;
+    cursor: no-drop;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.day-bar {
+    line-height: 2em;
+}
+.day-bar> * {
+    text-align: center;
+    font-weight: bold;
+}
+.date-content td {
+    text-align: center;
+    line-height: 3em;
+    height: 3em;
+    width: calc(100% / 7);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background .4s ease-out;
+}
+.date-content td.date-disabled {
+    color: rgba(0, 0, 0, .27);
+    cursor: no-drop;
+}
+.date-content td.date-empty {
+    color: rgba(0, 0, 0, .27);
+    cursor: default;
+}
+.date-activate {
+    color: rgba(255, 255, 255, 1);
+    background: #ff4081;
+    font-weight: bold;
+}
+.report-header {
+    line-height: 40px;
+    display: flex;
+    padding: 0 8px;
+}
+.report-header-title {
+    flex: 1;
+}
+.report-header-status> img {
+    vertical-align: text-bottom;
+}
+.report-content {
+    border-top: 1px solid rgba(0, 0, 0, .27);
+    padding: 16px;
+}
+.report-item {
+    line-height: 1.5em;
+}
+.report-item:not(:first-child) {
+    margin-top: 16px;
+}
+.done::before, .todo::before {
+    display: inline-block;
+    padding: 2px 4px;
+    margin-right: 4px;
+    border: 1px outset;
+}
+.done::before {
+    content: 'DONE';
+    color: #ff4081;
+}
+.todo::before {
+    content: 'TODO';
+    color: rgba(0, 0, 0, .27);
+}
+.nothing {
+    text-align: center;
+}
+#weekreportbotton {
+    background: #ff4081;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    left: 80%;
+    top: 80%;
+    cursor: pointer;
+}
+#weekreportbotton:hover {
+    background: #ff5a9a;
+}
+footer {
+    padding: .5em 0 .35em 0;
+    clear: both;
+    width: calc( 100% - 16px);
+    text-align: center;
+}
+footer p {
+    font-size: .85em;
+    font-weight: 400;
+    letter-spacing: -.05em;
+    color: rgba(0, 0, 0, .6);
+}
+#shadow {
+    display: none;
+    z-index: 1;
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /*cursor: no-drop;*/
+}
+#weekreport {
+    display: none;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+#weekreport> .header {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    line-height: 40px;
+    padding: 0 8px;
+    margin: 0;
+    background: #009688;
+}
+#weekreport> .header> h4 {
+    margin: 0;
+    color: #fff;
+}
+#weekreport> #work, #plan {
+    padding: 0 10px;
+}
+#weekreport> .close {
+    text-align: center;
+    margin-bottom: 5px;
+}
+#closebotton {
+    display: inline-block;
+    background: #ff4081;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#closebotton:hover {
+    background: #ff5a9a;
+}
+#closebotton> img {
+    width: 30px;
+    height: 30px;
+}

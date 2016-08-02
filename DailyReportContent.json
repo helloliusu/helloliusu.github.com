@@ -1,0 +1,150 @@
+{
+    "dailyreportcontents": [{
+        "date": "2016-7-13",
+        "tasklist": [{
+            "task": "学习HTML基本内容，了解常用标签",
+            "status": 1
+        }, {
+            "task": "学习CSS基本内容：盒模型、元素定位、文本样式等",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-7-14",
+        "tasklist": [{
+            "task": "学习CSS基本内容：盒模型、元素定位、文本样式等",
+            "status": 1
+        }, {
+            "task": "日报页面HTML、CSS部分实现",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-7-15",
+        "tasklist": [{
+            "task": "日报页面HTML、CSS部分实现",
+            "status": 1
+        }, {
+            "task": "学习JavaScript基本内容：变量、方法、JSON、闭包、DOM元素操作",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-7-18",
+        "tasklist": [{
+            "task": "学习JavaScript基本内容：变量、方法、JSON、闭包、DOM元素操作",
+            "status": 1
+        }, {
+            "task": "学习Flex布局",
+            "status": 1
+        }]
+    }, {
+        "date": "2016-7-19",
+        "tasklist": [{
+            "task": "学习Flex布局",
+            "status": 1
+        }, {
+            "task": "结合flex布局实现日报页面",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-7-20",
+        "tasklist": [{
+            "task": "学习Flex布局",
+            "status": 1
+        }, {
+            "task": "结合flex布局实现日报页面",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-7-21",
+        "tasklist": [{
+            "task": "修改日报页面",
+            "status": 1
+        }, {
+            "task": "学习ExtJS、Sencha Touch",
+            "status": 1
+        }]
+    }, {
+        "date": "2016-7-22",
+        "tasklist": [{
+            "task": "继续学习ExtJS、Sencha Touch",
+            "status": 1
+        }, {
+            "task": "用javascript实现日历的显示",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-7-25",
+        "tasklist": [{
+            "task": "实现日历的动态显示，以及上一年与下一年的选择",
+            "status": 1
+        }, {
+            "task": "实现选中日期，显示对应的日报信息",
+            "status": 1
+        }]
+    }, {
+        "date": "2016-7-26",
+        "tasklist": [{
+            "task": "修改日报数据结构",
+            "status": 1
+        }, {
+            "task": "修改日报页面样式",
+            "status": 1
+        }]
+    }, {
+        "date": "2016-7-27",
+        "tasklist": [{
+            "task": "箭头鼠标设置为手型",
+            "status": 1
+        }, {
+            "task": "控制箭头的可用性，不能选择当前日期之后月份",
+            "status": 1
+        }, {
+            "task": "加入半颗星的图标",
+            "status": 1
+        }, {
+            "task": "通过transition属性来实现动画效果",
+            "status": 1
+        }, {
+            "task": "HTML meta viewport属性说明",
+            "status": 0
+        }, {
+            "task": "title改为 刘苏的日报",
+            "status": 1
+        }, {
+            "task": "加入footer",
+            "status": 1
+        }, {
+            "task": "没有日报时候把‘空’改为一张图片",
+            "status": 1
+        }, {
+            "task": "添加favicon",
+            "status": 1
+        }, {
+            "task": "提供生成周报的功能",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-7-28",
+        "tasklist": [{
+            "task": "'空'图片居中",
+            "status": 1
+        }, {
+            "task": "页面两边留白",
+            "status": 1
+        }]
+    }, {
+        "date": "2016-7-29",
+        "tasklist": [{
+            "task": "完成日报生成周报HTML与CSS部分内容",
+            "status": 1
+        }, {
+            "task": "完成日报生成周报javascript部分内容",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-8-1",
+        "tasklist": [{
+            "task": "完成日报生成周报javascript部分内容",
+            "status": 0
+        }]
+    }]
+}
