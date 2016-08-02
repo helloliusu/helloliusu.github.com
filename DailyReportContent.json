@@ -144,6 +144,24 @@
         "date": "2016-8-1",
         "tasklist": [{
             "task": "完成日报生成周报javascript部分内容",
+            "status": 1
+        }, {
+            "task": "sass&workspace培训",
+            "status": 1
+        }, {
+            "task": "修改周报页面样式",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-8-2",
+        "tasklist": [{
+            "task": "修改周报页面样式",
+            "status": 1
+        }, {
+            "task": "搭建ExtJS环境",
+            "status": 1
+        }, {
+            "task": "熟悉云景项目代码",
             "status": 0
         }]
     }]
