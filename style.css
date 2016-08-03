@@ -40,7 +40,7 @@ header> h3 {
     padding: 0 0 10px;
 }
 .date-select, .report {
-    flex-grow: 1;
+    flex: 1 0 0;
     min-width: 500px;
     color: rgba(0, 0, 0, .87);
     border-radius: 10px;
