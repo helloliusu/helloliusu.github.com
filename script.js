@@ -184,23 +184,19 @@ function generateWeekReport() {
         }
         if (dailyreportcontent) {
             for (var index in dailyreportcontent.tasklist) {
-                if (!dailyreportcontent.tasklist[index].status) {
-                    if (todoList.indexOf(dailyreportcontent.tasklist[index].task) == -1) {
-                        todoList.push(dailyreportcontent.tasklist[index].task);
-                    }
-                    for (var index2 in doneList) {
-                        if (dailyreportcontent.tasklist[index].task == doneList[index2]) {
-                            doneList.splice(index2, 1);
-                        }
+              var reportStr = dailyreportcontent.tasklist[index].task;
+                if (dailyreportcontent.tasklist[index].status == 0) {
+                    if ((todoList.indexOf(reportStr) == -1) && (doneList.indexOf(reportStr) == -1)) {
+                        todoList.push(reportStr);
                     }
                 } else {
-                    if (doneList.indexOf(dailyreportcontent.tasklist[index].task) == -1) {
-                        doneList.push(dailyreportcontent.tasklist[index].task);
+                    if (doneList.indexOf(reportStr) == -1) {
+                        doneList.push(reportStr);
                     }
-                    for (var index3 in todoList) {
-                        if (dailyreportcontent.tasklist[index].task == todoList[index3]) {
-                            todoList.splice(index3, 1);
-                        }
+                    var index3 = todoList.indexOf(reportStr);
+                    if (index3 != -1) {
+                      delete todoList[index3];
+                      todoList.splice(index3, 1);
                     }
                 }
             }
