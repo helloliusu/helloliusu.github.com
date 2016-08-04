@@ -164,5 +164,20 @@
             "task": "熟悉云景项目代码",
             "status": 0
         }]
+    }, {
+        "date": "2016-8-3",
+        "tasklist": [{
+            "task": "修改ExtJS/management部分的header样式",
+            "status": 1
+        }, {
+            "task": "参加flex培训",
+            "status": 1
+        }, {
+            "task": "在ExtJS/main的header中添加威胁地图",
+            "status": 1
+        }, {
+            "task": "熟悉威胁地图的实现代码",
+            "status": 0
+        }]
     }]
 }
