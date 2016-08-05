@@ -179,5 +179,26 @@
             "task": "熟悉威胁地图的实现代码",
             "status": 0
         }]
+    }, {
+        "date": "2016-8-4",
+        "tasklist": [{
+            "task": "修改云景项目中设备监控部分中应用流量排名和用户流量排名的流量单位",
+            "status": 1
+        }, {
+            "task": "熟悉HTML中cnavas元素的使用",
+            "status": 1
+        }, {
+            "task": "使用canvas制作键盘控制小车动作",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-8-5",
+        "tasklist": [{
+            "task": "使用canvas制作键盘控制小车动作",
+            "status": 1
+        }, {
+            "task": "熟悉报表部分代码",
+            "status": 0
+        }]
     }]
 }
