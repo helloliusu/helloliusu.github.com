@@ -200,5 +200,17 @@
             "task": "熟悉报表部分代码",
             "status": 0
         }]
+    }, {
+        "date": "2016-8-8",
+        "tasklist": [{
+            "task": "参加flex第二次培训",
+            "status": 1
+        }, {
+            "task": "熟悉云景项目报表模块中的view以及store、model部分代码",
+            "status": 1
+        }, {
+            "task": "熟悉controller部分代码",
+            "status": 0
+        }]
     }]
 }
