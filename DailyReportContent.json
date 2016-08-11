@@ -212,5 +212,35 @@
             "task": "熟悉controller部分代码",
             "status": 0
         }]
+    }, {
+        "date": "2016-8-9",
+        "tasklist": [{
+            "task": "熟悉controller部分代码",
+            "status": 1
+        }, {
+            "task": "云景management中屏蔽英文部分",
+            "status": 1
+        }]
+    }, {
+        "date": "2016-8-10",
+        "tasklist": [{
+            "task": "云景设备监控中图表字体加粗",
+            "status": 1
+        }, {
+            "task": "参加flex第三次培训",
+            "status": 1
+        }, {
+            "task": "修改消息翻页后切换到首页，首页消息显示异常",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-8-11",
+        "tasklist": [{
+            "task": "修改消息翻页后切换到首页，首页消息显示异常",
+            "status": 1
+        }, {
+            "task": "参加flex第四次培训",
+            "status": 1
+        }]
     }]
 }
