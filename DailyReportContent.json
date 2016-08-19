@@ -272,5 +272,23 @@
             "task": "参加flex第六次培训",
             "status": 1
         }]
+    }, {
+        "date": "2016-8-18",
+        "tasklist": [{
+            "task": "修改bug：errorcode中英文",
+            "status": 1
+        }, {
+            "task": "参加组内Swift学习分享",
+            "status": 1
+        }]
+    }, {
+        "date": "2016-8-19",
+        "tasklist": [{
+            "task": "参加flex第七次培训",
+            "status": 1
+        }, {
+            "task": "学习ExtJS",
+            "status": 0
+        }]
     }]
 }
