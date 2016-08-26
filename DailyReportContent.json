@@ -290,5 +290,44 @@
             "task": "学习ExtJS",
             "status": 0
         }]
+    }, {
+        "date": "2016-8-22",
+        "tasklist": [{
+            "task": "学习ExtJS",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-8-23",
+        "tasklist": [{
+            "task": "参加组内Swift学习分享",
+            "status": 1
+        }]
+    }, {
+        "date": "2016-8-24",
+        "tasklist": [{
+            "task": "参加组内Swift学习分享",
+            "status": 1
+        }, {
+            "task": "学习Ext.XTemplate以及dataView组件",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-8-25",
+        "tasklist": [{
+            "task": "学习EXT中application、viewport、component以及ext.dom.element、htmlelement之间关系",
+            "status": 1
+        }, {
+            "task": "学习Ext.XTemplate以及dataView组件",
+            "status": 1
+        }]
+    }, {
+        "date": "2016-8-26",
+        "tasklist": [{
+            "task": "完成报表中的第二步报表项的逻辑部分",
+            "status": 1
+        }, {
+            "task": "添加报表项部分的样式",
+            "status": 0
+        }]
     }]
 }
