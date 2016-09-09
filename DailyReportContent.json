@@ -365,5 +365,38 @@
             "task": "设计新增子管理员并进行设备授权管理的页面",
             "status": 1
         }]
+    }, {
+        "date": "2016-9-5",
+        "tasklist": [{
+            "task": "实现cloudview页面中的用户向域授权设备",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-9-6",
+        "tasklist": [{
+            "task": "实现cloudview页面中的用户向域授权设备",
+            "status": 1
+        }, {
+            "task": "实现management页面中的License录入与查看",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-9-7",
+        "tasklist": [{
+            "task": "实现management页面中的License录入与查看",
+            "status": 1
+        }]
+    }, {
+        "date": "2016-9-8",
+        "tasklist": [{
+            "task": "实现management页面中的root进行角色分配",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-9-9",
+        "tasklist": [{
+            "task": "实现management页面中的root进行角色分配",
+            "status": 1
+        }]
     }]
 }
