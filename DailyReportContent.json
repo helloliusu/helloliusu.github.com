@@ -398,5 +398,32 @@
             "task": "实现management页面中的root进行角色分配",
             "status": 1
         }]
+    }, {
+        "date": "2016-9-26",
+        "tasklist": [{
+            "task": "不是我不想工作，主要后台的接口没调好",
+            "status": 0
+        }, {
+            "task": "root部分完成联调",
+            "status": 1
+        }]
+    }, {
+        "date": "2016-9-27",
+        "tasklist": [{
+            "task": "我有自己的世界，走不出去，别人也进不来，so，let me alone...",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-9-28",
+        "tasklist": [{
+            "task": "好想把自己藏起来，加个属性display：none，看不见我，看不见我，看不见我。。。",
+            "status": 0
+        }]
+    }, {
+        "date": "2016-9-29",
+        "tasklist": [{
+            "task": "我是一只小鸭子，咿呀咿呀哟，呱呱。。。继续划水，划完回家 ！",
+            "status": 0
+        }]
     }]
 }
